@@ -1,10 +1,6 @@
 <script>
-	// Import component from lib folder
-	// Use $ for alias to access folders inside src folder
-	import Title from '$lib/title.svelte';
 </script>
 
-<Title />
 <div class="index">
 	<h2>Welcome</h2>
 	<p>

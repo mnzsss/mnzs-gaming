@@ -1,12 +1,14 @@
 <script>
-	export let title = 'Menezes Gaming';
+	import { APP_NAME } from '../utils/constants';
+
+	export let title = APP_NAME;
 	export let page = '';
 
-	const fTitle = page ? `${title} | ${page}` : title;
+	const fTitle = page ? `${title} ${page}` : title;
 </script>
 
 <div class="title">
-	<img src="/controller.svg" alt="MNZS Gaming Logo" />
+	<img src="/controller.svg" alt={`${APP_NAME} Logo`} />
 	<h1>{fTitle}</h1>
 </div>
 
